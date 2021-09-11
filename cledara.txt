@@ -1,0 +1,8 @@
+create - https://app.cledara.com/api/accounts/{account id}/simpleCards || POST {name: "", description: "", teamId: "", currency: "GBP"}
+disable - https://app.cledara.com/api/accounts/{account id}/simpleCards/{card id}/status || PUT {status: "disabled"}
+enable - https://app.cledara.com/api/accounts/{account id}/simpleCards/{card id}/status || PUT {status: "active"}
+get info - https://app.cledara.com/api/accounts/{account id}/cards/{card id}/showCard || GET
+get account id - https://app.cledara.com/api/user || GET
+
+
+find all cards id -> /cards/{card_id}">

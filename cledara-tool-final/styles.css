@@ -1,0 +1,75 @@
+body {
+  width: 200px;
+}
+
+#fname {
+  width: 80px;
+}
+
+#create-cards-btn {
+  background: #3e64ff;
+  border-color: #3e64ff;
+}
+
+.btn {
+  color: #fff;
+  height: 30x;
+  width: 80px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);
+  float: right;
+  margin: 5px 0px 15px 0px;
+  padding: 5px 10px;
+}
+
+.btn:disabled {
+  background: darkgrey !important;
+}
+
+#stop-generating-btn {
+  display:none;
+  background: red;
+  border-color: red;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  border-radius: 5px;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #04aa6d;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+  border-radius: 5px 1px 1px 5px;
+}
+
+label {
+    font-size: 14px;
+}
+
+#numCardsDiv {
+    margin-bottom: 5px;
+}
+
+#deleteCardsDiv {
+    margin-bottom: 10px;
+}
+
+#delCards {
+    width:15px;
+    height: 15px;
+}
+
+#logout-btn {
+  float:right;
+}

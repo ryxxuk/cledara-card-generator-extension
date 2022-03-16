@@ -1,0 +1,28 @@
+{
+  "name": "Cledara Automation Tools",
+  "description": "Automate simple tasks in Cledara",
+  "version": "1.3",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting", "identity", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Celdara Automation"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.cledara.com/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ypkW/lK5OtYgjGzOaJhSzPLOsIM4qGm2EC378RoG0BNcPeJ6EAci7vdpLpgp0sDRKh7mmpC6S/VmLhviatcrEvQs6zzoyAd8Nd4FVwjEXLQ7BYxax462sfLQ+9vobvZWzcXlt6fpH7TCid01iajXFteA9LkMBFghnljm4BFHsJuEIxGtjnjv1NEXR+FDkRjAg0CSxZhDucTAbUqn33bFn2DQ7hcp2HyE30FW7XcuSEhhJUP6sootRQ1/8R+OefWrl4UChUM/iiBATZooYGZp2CuXzsQKpAYlqPJKYufmNhNJC/vgBmMnxgops5NSJVdbCORsYX4jWiWhpMi3ORXPwIDAQAB",
+  "oauth2": {
+    "client_id": "432980324370-3glm82u6f1rgbhj1a6g1qe51u3ni39fs.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/cloud-platform"
+    ]
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
